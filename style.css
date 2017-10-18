@@ -97,6 +97,13 @@ img:hover{
 background: -webkit-linear-gradient(to top, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #dc2430, #7b4397);
 }
+  .list-sidebar {
+    text-align: center;
+    font-size: 35px;
+    background-color: red;
+
+
+  }
 
 #sidebar {
   position: fixed;
@@ -108,6 +115,10 @@ background: linear-gradient(to top, #dc2430, #7b4397);
   background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #eef2f3, #8e9eab);
   opacity: 70%;
+  padding-top: 350px;
+}
+
+
 /*}
 #page-content {
   margin-left: 300px;
