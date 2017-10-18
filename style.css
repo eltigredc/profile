@@ -30,7 +30,6 @@ transform: rotate(360deg)/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12
   background: -webkit-linear-gradient(to top, #f1f2b5, #135058);
   background: linear-gradient(to top, #f1f2b5, #135058);
   padding-top: 60px;
-  transition: background-color 300ms;
   transition: all 300ms;
 }
 
@@ -98,3 +97,19 @@ img:hover{
 background: -webkit-linear-gradient(to top, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #dc2430, #7b4397);
 }
+
+#sidebar {
+  position: fixed;
+  width: 400px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #eef2f3, #8e9eab);
+  opacity: 70%;
+/*}
+#page-content {
+  margin-left: 300px;
+}
+*/
